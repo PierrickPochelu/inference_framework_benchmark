@@ -123,7 +123,7 @@ def from_modelname_to_prepro():
 
 
 
-def from_modelname_to_preparation_f():#TODO: finament pas utilise
+def from_modelname_to_preparation_f():#TODO: is it used somewhere ?
     from_modelname_to_prepro_f = from_modelname_to_prepro()
     from_modelname_to_rescale_f = from_modelname_to_rescale()
 
