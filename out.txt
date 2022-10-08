@@ -1,0 +1,39 @@
+/data/appli_PITSI/users/pochelu/project/inference_system/models_lib//OpenVINO/EfficientNetB0
+{'batch_size': 1, 'gpuid': -1}
+{}
+{'batch_size': 2, 'gpuid': -1}
+{}
+{'batch_size': 4, 'gpuid': -1}
+{}
+{'batch_size': 8, 'gpuid': -1}
+{}
+{'batch_size': 16, 'gpuid': -1}
+{}
+{'batch_size': 32, 'gpuid': -1}
+{}
+{'batch_size': 64, 'gpuid': -1}
+{}
+{'batch_size': 128, 'gpuid': -1}
+{}
+{'batch_size': 256, 'gpuid': -1}
+{}
+{'batch_size': 512, 'gpuid': -1}
+{}
+{'batch_size': 1024, 'gpuid': -1}
+{}
+/data/appli_PITSI/users/pochelu/project/inference_system/models_lib//OpenVINO/ResNet50
+{'batch_size': 1, 'gpuid': -1}
+{'build_time': 0.8027079105377197, 'throughput': 123, 'mean_latency': 0.009421, 'std_latency': 0.002229}
+{'batch_size': 2, 'gpuid': -1}
+{'build_time': 0.6689283847808838, 'throughput': 152}
+{'batch_size': 4, 'gpuid': -1}
+{'build_time': 0.6665084362030029, 'throughput': 184}
+{'batch_size': 8, 'gpuid': -1}
+{'build_time': 0.6552700996398926, 'throughput': 232}
+{'batch_size': 16, 'gpuid': -1}
+{'build_time': 0.6918880939483643, 'throughput': 247}
+{'batch_size': 32, 'gpuid': -1}
+{'build_time': 0.7203764915466309, 'throughput': 247}
+{'batch_size': 64, 'gpuid': -1}
+{'build_time': 0.7526979446411133, 'throughput': 248}
+{'batch_size': 128, 'gpuid': -1}

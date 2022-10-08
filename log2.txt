@@ -1,0 +1,24 @@
+<class 'pierrick_tools.inference_tf.TensorflowInferenceEngine'>
+/data/appli_PITSI/users/pochelu/project/inference_system/models_lib//TF_PB/EfficientNetB0.pb
+{'batch_size': 1, 'gpuid': 0}
+{'build_time': 4.95516562461853, 'throughput': 78, 'mean_latency': 0.012021, 'std_latency': 0.002362}
+{'batch_size': 2, 'gpuid': 0}
+{'build_time': 1.3360085487365723, 'throughput': 171}
+{'batch_size': 4, 'gpuid': 0}
+{'build_time': 1.2830302715301514, 'throughput': 294}
+{'batch_size': 8, 'gpuid': 0}
+{'build_time': 1.280268669128418, 'throughput': 553}
+{'batch_size': 16, 'gpuid': 0}
+{'build_time': 1.1122536659240723, 'throughput': 868}
+{'batch_size': 32, 'gpuid': 0}
+{'build_time': 1.5156793594360352, 'throughput': 1089}
+{'batch_size': 64, 'gpuid': 0}
+{'build_time': 1.5508885383605957, 'throughput': 840}
+{'batch_size': 128, 'gpuid': 0}
+{'build_time': 1.9920809268951416, 'throughput': 862}
+{'batch_size': 256, 'gpuid': 0}
+{'build_time': 2.5427286624908447, 'throughput': 888}
+{'batch_size': 512, 'gpuid': 0}
+{'build_time': 3.816984176635742, 'throughput': 901}
+{'batch_size': 1024, 'gpuid': 0}
+{'build_time': 5.924404859542847, 'throughput': 892}
