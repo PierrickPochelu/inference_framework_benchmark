@@ -38,7 +38,7 @@ def from_SavedModelFile_to_trtFile(SavedModel_path, trt_path, arithmetic="FP32")
     converter.save(trt_path)
 
 if __name__ == "__main__":
-    ROOT = "/data/appli_PITSI/users/pochelu/project/inference_system/"
+    ROOT = "."
     INPUT_SAVED_MODEL_DIR = ROOT + "/models_lib/TF_SavedModel/"
 
     arithmetic="FP32"
