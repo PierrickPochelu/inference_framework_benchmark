@@ -76,7 +76,7 @@ class TensorflowInferenceEngine:
         self.batch_size=config["batch_size"]
         self.gpuid=config["gpuid"]
         self.graph_name="g"+str(np.random.uniform(0,999999,(1,))[0].astype(np.int32))
-        self.is_XLA=False #TODO DO NOT FORGET TO PUT TRUE FOR MAXIMUM PERFORMANCE
+        self.is_XLA=config["XLA"] #TRUE FOR MAXIMUM PERFORMANCE BUT MULTIPLY BY 6 THE INITIALIZATION TIME
 
         if "prepro_f" in config:
             self.prepro_f=config["prepro_f"]
@@ -157,6 +157,7 @@ if __name__ == "__main__":
     for g in [0]:
         config = {}
         config["gpuid"] = g
+        config["XLA"] = True
         print(config)
         for model_path in [["./models_lib/TF_PB/DenseNet201.pb", "./models_lib/TF_PB/ResNet50.pb" , "./models_lib/TF_PB/EfficientNetB0.pb", "./models_lib/TF_PB/VGG19.pb"][int(sys.argv[1])]]:
             print(model_path)
