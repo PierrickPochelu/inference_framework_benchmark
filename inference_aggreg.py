@@ -32,7 +32,7 @@ import time
 from pierrick_tools.benchmark import BENCH
 
 if __name__ == "__main__":
-    model_path = "../models_lib/ONNX/VGG19.onnx"
+    model_path = "./models_lib/ONNX/VGG19.onnx"
     config = {}
     config["gpuid"] = 0
     config["batch_size"] = 32
