@@ -2,7 +2,7 @@ import tensorflow.compat.v1 as tf
 import re
 import sys
 
-#This script is usefull to parse TF file and take input/output tensor
+#This script is usefull to parse TF file and take input/output tensor based on regex
 def _log(t,v):
     if v:
         print(t)
@@ -60,7 +60,7 @@ if __name__ == '__main__':
         input_regex=sys.argv[2]
         output_regex=sys.argv[3]
     except:
-        pb_path="../models_lib/TF_PB/ResNet50.pb"
+        pb_path="./models_lib/TF_PB/ResNet50.pb"
         input_regex="^x:|input:"
         output_regex="Softmax:"
 
