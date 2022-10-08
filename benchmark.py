@@ -8,7 +8,7 @@ import time
 import os
 
 
-models_lib_path="/data/appli_PITSI/users/pochelu/project/inference_system/models_lib/"
+models_lib_path="./models_lib/"
 x = np.random.uniform(0, 1, (4096*2, 224, 224, 3)).astype(np.float32)
 x2 = np.random.uniform(0, 1, (1, 224, 224, 3)).astype(np.float32)
 GPU_ID=0
