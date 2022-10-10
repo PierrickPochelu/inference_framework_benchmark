@@ -1,3 +1,3 @@
 # Inference framework benchmark
 
-The associated paper is not written yet
+The associated paper is not published yet
