@@ -1,5 +1,4 @@
-<class 'pierrick_tools.inference_tf.TensorflowInferenceEngine'>
-/data/appli_PITSI/users/pochelu/project/inference_system/models_lib//TF_PB/EfficientNetB0.pb
+
 {'batch_size': 1, 'gpuid': 0}
 {'build_time': 4.95516562461853, 'throughput': 78, 'mean_latency': 0.012021, 'std_latency': 0.002362}
 {'batch_size': 2, 'gpuid': 0}
