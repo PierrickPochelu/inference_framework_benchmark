@@ -1,4 +1,4 @@
-/data/appli_PITSI/users/pochelu/project/inference_system/models_lib//TF_PB/VGG19.pb
+
 {'batch_size': 1, 'gpuid': -1}
 {'build_time': 16.550476551055908, 'throughput': 8, 'mean_latency': 0.134285, 'std_latency': 0.010021}
 {'batch_size': 2, 'gpuid': -1}
